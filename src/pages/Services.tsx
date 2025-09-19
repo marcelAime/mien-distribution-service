@@ -10,51 +10,115 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      title: "Maintenance d'imprimantes",
+      title: "Imprimerie",
       icon: Wrench,
-      image: maintenanceImage,
-      description: "Service complet de maintenance préventive et curative pour tous types d'imprimantes",
+      image: printingImage,
+      description: "Solutions complètes pour l'imprimerie offset traditionnelle",
       features: [
-        "Diagnostic complet gratuit",
-        "Réparation sur site ou en atelier",
-        "Maintenance préventive programmée",
-        "Support technique professionnel",
-        "Pièces détachées d'origine",
-        "Garantie sur les réparations"
+        "Plaques d'impression : CTP, CTCP et PF",
+        "Encres conventionnelles Pantone",
+        "Produits chimiques : Eau de mouillage, cleaner, wash etc",
+        "Auxiliaires : Vernis UV, poudre anti-maculante, manchon mouilleur, éponge, etc",
+        "Conseil technique spécialisé",
+        "Livraison rapide"
       ],
-      benefits: "Réduisez vos coûts et maximisez la durée de vie de vos équipements"
+      benefits: "Tous les consommables pour une impression offset de qualité professionnelle"
     },
     {
       id: 2,
-      title: "Vente de consommables",
+      title: "Flexographie",
       icon: Package,
       image: suppliesImage,
-      description: "Large gamme de cartouches, toners et papiers pour toutes marques d'imprimantes",
+      description: "Équipements et consommables pour l'impression flexographique",
       features: [
-        "Cartouches d'encre originales et compatibles",
-        "Toners laser haute qualité",
-        "Papiers spécialisés (photo, présentation)",
-        "Livraison rapide",
-        "Prix compétitifs",
-        "Conseil personnalisé"
+        "Encres à eau pour tous supports",
+        "Encres à solvant haute résolution",
+        "Plaques photo-polymère précises",
+        "Solvants de gravage spécialisés",
+        "Support technique expert",
+        "Produits certifiés qualité"
       ],
-      benefits: "Stock permanent et prix avantageux pour vos consommables"
+      benefits: "Solutions complètes pour la flexographie industrielle et artisanale"
     },
     {
       id: 3,
-      title: "Impression professionnelle",
+      title: "Numérique",
       icon: Printer,
-      image: printingImage,
-      description: "Services d'impression haute qualité pour tous vos documents professionnels",
+      image: maintenanceImage,
+      description: "Solutions d'impression numérique grand format",
       features: [
-        "Impression couleur et noir & blanc",
-        "Formats standards et grands formats",
+        "Vinyles : adhésifs, décoratifs, transparents",
+        "Bâches : frontlit, backlit, mesh, canvas", 
+        "Encres éco-solvant longue durée",
+        "Formats standards et sur mesure",
         "Finitions professionnelles",
-        "Délais respectés",
-        "Qualité garantie",
-        "Tarifs préférentiels en volume"
+        "Conseils d'utilisation"
       ],
-      benefits: "Impression de qualité professionnelle pour vos projets importants"
+      benefits: "Tout pour vos impressions numériques extérieur et intérieur"
+    },
+    {
+      id: 4,
+      title: "Sérigraphie",
+      icon: Wrench,
+      image: printingImage,
+      description: "Matériels et consommables pour la sérigraphie professionnelle",
+      features: [
+        "Mesh 100% polyester différents grammages",
+        "Émulsion diazo photosensible",
+        "Encres plastisol : opaques, transparentes, pailletées",
+        "Polymères de différentes duretés",
+        "Encres à eau écologiques",
+        "Encres à solvant pour plastiques et métaux"
+      ],
+      benefits: "Gamme complète pour tous vos projets sérigraphiques"
+    },
+    {
+      id: 5,
+      title: "Pièces détachées",
+      icon: Package,
+      image: suppliesImage,
+      description: "Large gamme de pièces détachées pour tous types d'équipements",
+      features: [
+        "Pièces mécaniques : rouleaux, cylindres, engrenages",
+        "Pièces électroniques : cartes, capteurs, moteurs",
+        "Courroies et transmissions",
+        "Alimentations et composants",
+        "Diagnostic et expertise",
+        "Installation et maintenance"
+      ],
+      benefits: "Maintenez vos équipements en parfait état de fonctionnement"
+    },
+    {
+      id: 6,
+      title: "Équipements",
+      icon: Printer,
+      image: maintenanceImage,
+      description: "Machines neuves et d'occasion pour tous vos besoins d'impression",
+      features: [
+        "Machines CTP neuves et occasions révisées",
+        "Machines d'impression : offset, numérique, flexo, sérigraphie",
+        "Machines de finition : découpe, pelliculage, reliure, pliage",
+        "Formation incluse",
+        "Garantie constructeur",
+        "Service après-vente"
+      ],
+      benefits: "Équipez-vous avec les meilleures machines du marché"
+    },
+    {
+      id: 7,
+      title: "Accessoires",
+      icon: Wrench,
+      image: printingImage,
+      description: "Tous les accessoires nécessaires à vos opérations d'impression",
+      features: [
+        "Outils de mesure de précision",
+        "Produits d'entretien spécialisés",
+        "Consommables divers",
+        "Accessoires de sécurité",
+        "Solutions de stockage",
+        "Conseil personnalisé"
+      ],
+      benefits: "Complétez votre équipement avec nos accessoires professionnels"
     }
   ];
 
@@ -65,10 +129,10 @@ const Services = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center fade-in-up">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Nos Services d'Impression
+              Nos Produits d'Impression
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Des solutions complètes pour tous vos besoins d'impression et de maintenance
+              Des solutions complètes pour tous vos besoins d'impression, de machines et de pièces détachées
             </p>
           </div>
         </div>
@@ -161,11 +225,11 @@ const Services = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center fade-in-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary">
-              Besoin d'un service personnalisé ?
+              Besoin d'un produit spécifique ?
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
               Contactez-nous pour discuter de vos besoins spécifiques. 
-              Nous vous proposons des solutions sur mesure.
+              Nous vous proposons des solutions sur mesure avec les meilleurs produits du marché.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="btn-gradient" asChild>

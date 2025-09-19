@@ -29,7 +29,7 @@ const HeroSection = () => {
           <div className="text-center lg:text-left">
             <div className="hero-fade-in">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-                L'impression qui donne
+                Des consommables pour l'impression qui donnent
                 <span className="block text-transparent bg-gradient-to-r from-accent to-accent-foreground bg-clip-text">
                   vie à vos idées
                 </span>
@@ -38,8 +38,8 @@ const HeroSection = () => {
 
             <div className="hero-fade-in" style={{ animationDelay: '0.2s' }}>
               <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                Maintenance d'imprimantes, vente de consommables et impression professionnelle 
-                à Koumassi et partout en Côte d'Ivoire.
+                Ventes d'équipements, de pièces détachées et de consommables d'imprimerie, flexographie, 
+                numérique et de sérigraphie pour des impressions professionnelles.
               </p>
             </div>
 
@@ -96,8 +96,8 @@ const HeroSection = () => {
                     <Star className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-white mb-2">Excellence garantie</h4>
-                    <p className="text-white/80">Service de qualité avec des techniciens expérimentés</p>
+                    <h4 className="text-lg font-semibold text-white mb-2">Excellente garantie</h4>
+                    <p className="text-white/80">Service de qualité avec des produits certifiés</p>
                   </div>
                 </div>
 
@@ -107,7 +107,7 @@ const HeroSection = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-white mb-2">Proximité & Réactivité</h4>
-                    <p className="text-white/80">Intervention rapide dans toute la région de Koumassi</p>
+                    <p className="text-white/80">Intervention rapide dans toute la Côte d'Ivoire et la sous-région</p>
                   </div>
                 </div>
 

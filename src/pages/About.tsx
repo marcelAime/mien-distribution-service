@@ -13,7 +13,8 @@ const About = () => {
               À propos de Mien Distribution & Service
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Votre partenaire de confiance pour tous vos besoins d'impression et de maintenance
+              Votre partenaire de confiance pour tous vos besoins en équipement, 
+              pièces détachées et consommables d'impression
             </p>
           </div>
         </div>
@@ -37,10 +38,9 @@ const About = () => {
               </h2>
               <div className="prose prose-lg text-muted-foreground space-y-6">
                 <p>
-                  Chez Mien Distribution et Service, nous croyons que chaque entreprise mérite des solutions 
-                  d'impression fiables, rapides et économiques. Notre mission est simple : accompagner nos 
-                  clients avec professionnalisme et proximité, en leur offrant des services adaptés à leurs 
-                  besoins quotidiens.
+                  Mien Distribution et Service, votre partenaire de confiance pour tous vos besoins 
+                  pour l'impression et vente de consommables d'imprimerie, flexographie, 
+                  de numérique et de sérigraphie.
                 </p>
                 <p>
                   Nos valeurs reposent sur la fiabilité, la réactivité et la proximité. Nous mettons un point 
@@ -72,7 +72,7 @@ const About = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4 text-primary">Fiabilité</h3>
               <p className="text-muted-foreground">
-                Des services de qualité constante avec des équipements et techniciens certifiés
+                Des services de qualité constante avec des équipements et consommables certifiés
               </p>
             </div>
 
