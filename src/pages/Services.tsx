@@ -1,18 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Wrench, Package, Printer, ArrowRight, CheckCircle } from 'lucide-react';
+import { Wrench, Package, Printer, ArrowRight, CheckCircle, Cog, Settings, Layers, CircuitBoard } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import maintenanceImage from '@/assets/maintenance-service.jpg';
-import suppliesImage from '@/assets/supplies-service.jpg';
-import printingImage from '@/assets/printing-service.jpg';
+// Product images
+import chemicalsBarrels from '@/assets/products/chemicals-barrels.jpg';
+import chemicalsWarehouse from '@/assets/products/chemicals-warehouse.jpg';
+import inkSpatulas from '@/assets/products/ink-spatulas.jpg';
+import magnifyingLoupe from '@/assets/products/magnifying-loupe.jpg';
+import circuitBoards from '@/assets/products/circuit-boards.jpg';
+import laminatingMachine from '@/assets/products/laminating-machine.jpg';
+import printingPlate from '@/assets/products/printing-plate.jpg';
+import spareParts from '@/assets/products/spare-parts.jpg';
 
 const Services = () => {
   const services = [
     {
       id: 1,
       title: "Imprimerie",
-      icon: Wrench,
-      image: printingImage,
+      icon: Printer,
+      image: printingPlate,
       description: "Solutions complètes pour l'imprimerie offset traditionnelle",
       features: [
         "Plaques d'impression : CTP, CTCP et PF",
@@ -27,8 +33,8 @@ const Services = () => {
     {
       id: 2,
       title: "Flexographie",
-      icon: Package,
-      image: suppliesImage,
+      icon: Layers,
+      image: chemicalsWarehouse,
       description: "Équipements et consommables pour l'impression flexographique",
       features: [
         "Encres à eau pour tous supports",
@@ -43,8 +49,8 @@ const Services = () => {
     {
       id: 3,
       title: "Numérique",
-      icon: Printer,
-      image: maintenanceImage,
+      icon: Package,
+      image: chemicalsBarrels,
       description: "Solutions d'impression numérique grand format",
       features: [
         "Vinyles : adhésifs, décoratifs, transparents",
@@ -60,7 +66,7 @@ const Services = () => {
       id: 4,
       title: "Sérigraphie",
       icon: Wrench,
-      image: printingImage,
+      image: inkSpatulas,
       description: "Matériels et consommables pour la sérigraphie professionnelle",
       features: [
         "Mesh 100% polyester différents grammages",
@@ -75,8 +81,8 @@ const Services = () => {
     {
       id: 5,
       title: "Pièces détachées",
-      icon: Package,
-      image: suppliesImage,
+      icon: CircuitBoard,
+      image: spareParts,
       description: "Large gamme de pièces détachées pour tous types d'équipements",
       features: [
         "Pièces mécaniques : rouleaux, cylindres, engrenages",
@@ -91,8 +97,8 @@ const Services = () => {
     {
       id: 6,
       title: "Équipements",
-      icon: Printer,
-      image: maintenanceImage,
+      icon: Settings,
+      image: laminatingMachine,
       description: "Machines neuves et d'occasion pour tous vos besoins d'impression",
       features: [
         "Machines CTP neuves et occasions révisées",
@@ -107,8 +113,8 @@ const Services = () => {
     {
       id: 7,
       title: "Accessoires",
-      icon: Wrench,
-      image: printingImage,
+      icon: Cog,
+      image: magnifyingLoupe,
       description: "Tous les accessoires nécessaires à vos opérations d'impression",
       features: [
         "Outils de mesure de précision",

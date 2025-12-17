@@ -22,13 +22,21 @@ const Navigation = () => {
     <nav className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          {/* Logo */}
-          <Link to="/" className="flex items-center">
+          {/* Logo avec nom */}
+          <Link to="/" className="flex items-center gap-3 group">
             <img 
               src={logo} 
               alt="Mien Distribution et Service" 
-              className="h-12 md:h-14 w-auto hover:scale-105 transition-transform duration-300"
+              className="h-10 md:h-12 w-auto group-hover:scale-105 transition-transform duration-300"
             />
+            <div className="hidden sm:block text-left">
+              <span className="block text-sm md:text-base font-bold text-primary group-hover:text-accent transition-colors">
+                Mien Distribution
+              </span>
+              <span className="block text-xs md:text-sm text-muted-foreground group-hover:text-foreground transition-colors">
+                et Service
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
