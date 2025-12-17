@@ -55,7 +55,7 @@ Nous intervenons aussi bien pour les particuliers que pour les entreprises, avec
 • **Paiement flexible** : Espèces, mobile money, virement bancaire
 
 **Pour obtenir un devis :**
-1. Contactez-nous par téléphone (+225 0504908469)
+1. Contactez-nous par téléphone (2521002120 / 2521002119)
 2. Envoyez-nous un message WhatsApp
 3. Remplissez notre formulaire de contact en ligne
 4. Visitez notre bureau à Koumassi
@@ -67,7 +67,7 @@ Réponse garantie sous 24h !`
       question: "📞 Comment puis-je vous contacter facilement ?",
       answer: `Plusieurs moyens simples pour nous joindre :
 
-• **Téléphone** : +225 0504908469 (7j/7)
+• **Téléphone** : 2521002120 / 2521002119 (7j/7)
 • **WhatsApp** : +225 0504908469 (réponse rapide)
 • **Email** : commercialgdt7@gmail.com
 • **Formulaire** : Via notre site web

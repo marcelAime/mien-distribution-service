@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Facebook, Linkedin, MessageCircle } from 'lucide-react';
+import logo from '@/assets/logo.png';
 
 const Footer = () => {
   return (
@@ -11,15 +12,13 @@ const Footer = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="lg:col-span-2">
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">M</span>
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold">Mien Distribution</h3>
-                  <p className="text-white/80">& Service</p>
-                </div>
-              </div>
+              <Link to="/" className="inline-block mb-6">
+                <img 
+                  src={logo} 
+                  alt="Mien Distribution et Service" 
+                  className="h-16 w-auto brightness-0 invert hover:scale-105 transition-transform duration-300"
+                />
+              </Link>
               <p className="text-white/90 mb-6 leading-relaxed">
                 Votre partenaire de confiance pour tous vos besoins d'impression, maintenance et 
                 vente de consommables. Nous offrons des solutions professionnelles adaptées à 
@@ -92,10 +91,10 @@ const Footer = () => {
                   <Phone className="w-5 h-5 mr-3 text-accent" />
                   <div>
                     <a 
-                      href="tel:+2250504908469" 
+                      href="tel:+2252521002120" 
                       className="text-white/90 hover:text-white transition-colors"
                     >
-                      +225 0504908469
+                      2521002120 / 2521002119
                     </a>
                   </div>
                 </div>
