@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import logo from '@/assets/logo.png';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,14 +23,12 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-brand-blue to-brand-orange rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">M</span>
-            </div>
-            <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-primary">Mien Distribution</h1>
-              <p className="text-sm text-muted-foreground">& Service</p>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img 
+              src={logo} 
+              alt="Mien Distribution et Service" 
+              className="h-12 md:h-14 w-auto hover:scale-105 transition-transform duration-300"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -54,7 +53,7 @@ const Navigation = () => {
             <div className="text-right">
               <div className="flex items-center text-sm text-muted-foreground">
                 <Phone className="w-4 h-4 mr-2" />
-                +225 0504908469
+                2521002120 / 2521002119
               </div>
               <div className="flex items-center text-sm text-muted-foreground">
                 <Mail className="w-4 h-4 mr-2" />

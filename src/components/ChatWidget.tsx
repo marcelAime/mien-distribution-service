@@ -66,12 +66,12 @@ const ChatWidget = () => {
     
     // Prix et devis
     if (msg.includes('prix') || msg.includes('coût') || msg.includes('tarif') || msg.includes('devis') || msg.includes('combien')) {
-      return "💰 Nos tarifs sont très compétitifs !\n\n• **Devis gratuit** et sans engagement\n• Prix transparents, pas de frais cachés\n• Tarifs dégressifs selon quantités\n\n📞 Pour un devis personnalisé :\n• Appelez-nous : +225 0504908469\n• WhatsApp direct\n• Formulaire de contact\n\nQuel service vous intéresse pour le devis ?";
+      return "💰 Nos tarifs sont très compétitifs !\n\n• **Devis gratuit** et sans engagement\n• Prix transparents, pas de frais cachés\n• Tarifs dégressifs selon quantités\n\n📞 Pour un devis personnalisé :\n• Appelez-nous : 2521002120 / 2521002119\n• WhatsApp direct\n• Formulaire de contact\n\nQuel service vous intéresse pour le devis ?";
     }
     
     // Localisation et contact
     if (msg.includes('où') || msg.includes('adresse') || msg.includes('situé') || msg.includes('trouver') || msg.includes('localisation')) {
-      return "📍 **Notre adresse :**\nKoumassi Inshalla, en face de la pharmacie Prodomo\nAbidjan, Côte d'Ivoire\n\n📱 **Contacts :**\n• Téléphone : +225 0504908469\n• Email : commercialgdt7@gmail.com\n• WhatsApp disponible 7j/7\n\nNous nous déplaçons aussi chez vous dans tout Abidjan !";
+      return "📍 **Notre adresse :**\nKoumassi Inshalla, en face de la pharmacie Prodomo\nAbidjan, Côte d'Ivoire\n\n📱 **Contacts :**\n• Téléphone : 2521002120 / 2521002119\n• Email : commercialgdt7@gmail.com\n• WhatsApp disponible 7j/7\n\nNous nous déplaçons aussi chez vous dans tout Abidjan !";
     }
     
     // Rapidité d'intervention
@@ -91,11 +91,11 @@ const ChatWidget = () => {
     
     // Remerciements
     if (msg.includes('merci') || msg.includes('parfait') || msg.includes('super') || msg.includes('génial')) {
-      return "😊 De rien, c'est un plaisir de vous aider !\n\n🤝 N'hésitez pas si vous avez d'autres questions. Notre équipe est toujours là pour vous accompagner.\n\n📞 Pour passer commande ou programmer une intervention : +225 0504908469";
+      return "😊 De rien, c'est un plaisir de vous aider !\n\n🤝 N'hésitez pas si vous avez d'autres questions. Notre équipe est toujours là pour vous accompagner.\n\n📞 Pour passer commande ou programmer une intervention : 2521002120 / 2521002119";
     }
     
     // Réponse par défaut avec suggestions
-    return "🤔 Je n'ai pas bien compris votre question, mais je peux vous renseigner sur :\n\n• 🛠️ **Maintenance** d'imprimantes\n• 📦 **Consommables** (cartouches, toners)\n• 🖨️ **Impression** professionnelle\n• 💰 **Tarifs** et devis gratuits\n• 📍 **Localisation** et contact\n\n💬 Posez-moi une question plus précise ou contactez directement notre équipe au +225 0504908469 !";
+    return "🤔 Je n'ai pas bien compris votre question, mais je peux vous renseigner sur :\n\n• 🛠️ **Maintenance** d'imprimantes\n• 📦 **Consommables** (cartouches, toners)\n• 🖨️ **Impression** professionnelle\n• 💰 **Tarifs** et devis gratuits\n• 📍 **Localisation** et contact\n\n💬 Posez-moi une question plus précise ou contactez directement notre équipe au 2521002120 / 2521002119 !";
   };
 
   const quickSuggestions = [

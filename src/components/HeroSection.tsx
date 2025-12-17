@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle, Star, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import heroImage from '@/assets/hero-banner.jpg';
+import logo from '@/assets/logo.png';
 
 const HeroSection = () => {
   return (
@@ -27,7 +28,18 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-center lg:text-left">
-            <div className="hero-fade-in">
+            {/* Logo cliquable */}
+            <div className="hero-fade-in mb-6">
+              <Link to="/" className="inline-block">
+                <img 
+                  src={logo} 
+                  alt="Mien Distribution et Service" 
+                  className="h-20 md:h-24 w-auto hover:scale-105 transition-transform duration-300"
+                />
+              </Link>
+            </div>
+
+            <div className="hero-fade-in" style={{ animationDelay: '0.1s' }}>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
                 Des consommables pour l'impression qui donnent
                 <span className="block text-transparent bg-gradient-to-r from-accent to-accent-foreground bg-clip-text">
@@ -36,10 +48,9 @@ const HeroSection = () => {
               </h1>
             </div>
 
-            <div className="hero-fade-in" style={{ animationDelay: '0.2s' }}>
+            <div className="hero-fade-in" style={{ animationDelay: '0.3s' }}>
               <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                Ventes d'équipements, de pièces détachées et de consommables d'imprimerie, flexographie, 
-                numérique et de sérigraphie pour des impressions professionnelles.
+                Ventes d'équipements, de pièces détachées pour machine d'art graphique à Koumassi et partout en Côte d'Ivoire.
               </p>
             </div>
 
@@ -67,11 +78,11 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className="hero-fade-in" style={{ animationDelay: '0.6s' }}>
+            <div className="hero-fade-in" style={{ animationDelay: '0.7s' }}>
               <div className="flex flex-wrap justify-center lg:justify-start gap-6 text-white/80">
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 mr-2 text-accent" />
-                  <span>Intervention rapide</span>
+                  <span>Réactivité</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 mr-2 text-accent" />
