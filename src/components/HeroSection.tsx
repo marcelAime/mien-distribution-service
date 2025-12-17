@@ -28,14 +28,22 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-center lg:text-left">
-            {/* Logo cliquable */}
+            {/* Logo cliquable avec nom */}
             <div className="hero-fade-in mb-6">
-              <Link to="/" className="inline-block">
+              <Link to="/" className="inline-flex items-center gap-4 group">
                 <img 
                   src={logo} 
                   alt="Mien Distribution et Service" 
-                  className="h-20 md:h-24 w-auto hover:scale-105 transition-transform duration-300"
+                  className="h-16 md:h-20 w-auto group-hover:scale-105 transition-transform duration-300"
                 />
+                <div className="text-left">
+                  <span className="block text-2xl md:text-3xl font-bold text-white group-hover:text-accent transition-colors duration-300">
+                    Mien Distribution
+                  </span>
+                  <span className="block text-lg md:text-xl font-medium text-white/80 group-hover:text-white transition-colors duration-300">
+                    et Service
+                  </span>
+                </div>
               </Link>
             </div>
 

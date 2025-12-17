@@ -12,12 +12,20 @@ const Footer = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="lg:col-span-2">
-              <Link to="/" className="inline-block mb-6">
+              <Link to="/" className="inline-flex items-center gap-4 mb-6 group">
                 <img 
                   src={logo} 
                   alt="Mien Distribution et Service" 
-                  className="h-16 w-auto brightness-0 invert hover:scale-105 transition-transform duration-300"
+                  className="h-14 w-auto brightness-0 invert group-hover:scale-105 transition-transform duration-300"
                 />
+                <div className="text-left">
+                  <span className="block text-xl font-bold text-white group-hover:text-accent transition-colors">
+                    Mien Distribution
+                  </span>
+                  <span className="block text-base text-white/80 group-hover:text-white transition-colors">
+                    et Service
+                  </span>
+                </div>
               </Link>
               <p className="text-white/90 mb-6 leading-relaxed">
                 Votre partenaire de confiance pour tous vos besoins d'impression, maintenance et 
